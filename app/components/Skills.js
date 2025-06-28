@@ -1,6 +1,6 @@
 const skills = [
   "Node.js", "Express.js", "React.js", "PHP", "CodeIgniter", "Laravel",
-  "MySQL", "JWT", "HTML", "CSS", "Docker", "Git"
+  "MySQL", "JWT", "HTML", "Javascript", "Docker", "Git","Microservices","Jira"
 ];
 
 export default function Skills() {

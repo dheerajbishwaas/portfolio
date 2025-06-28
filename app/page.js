@@ -12,7 +12,7 @@ export default function Home() {
 >
   <h1 className="text-5xl font-bold text-blue-600 mb-4">Hi, I’m Dheeraj Bishwas 👋</h1>
   <p className="text-xl text-gray-700 mb-2">Backend & Full Stack Developer</p>
-  <p className="text-md text-gray-500 mb-4">4+ years experience in scalable web app development</p>
+  <p className="text-md text-gray-500 mb-4">5+ years experience in scalable web app development</p>
   <div className="flex flex-wrap justify-center gap-4">
     <a href="#projects" className="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700">
       View Projects
