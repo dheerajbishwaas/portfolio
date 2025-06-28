@@ -5,9 +5,9 @@ import { useEffect, useRef, useState } from 'react';
 const skills = [
   { name: "Node.js", level: 80 },
   { name: "Express.js", level: 85 },
-  { name: "React.js", level: 80 },
+  { name: "React.js", level: 60 },
   { name: "PHP", level: 75 },
-  { name: "CodeIgniter", level: 80 },
+  { name: "CodeIgniter", level: 70 },
   { name: "Laravel", level: 70 },
   { name: "MySQL", level: 85 },
   { name: "JWT", level: 75 },
