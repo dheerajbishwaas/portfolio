@@ -1,5 +1,11 @@
 const projects = [
   {
+    title: "TutoHub",
+    stack: "Next.js, Node.js, JWT",
+    company: "Personal Project",
+    description: "Study material sharing platform with Google OAuth and role-based access."
+  },
+  {
     title: "Tohfa.gift",
     stack: "PHP, CodeIgniter 4",
     company: "Greek Factory Inovation",
@@ -28,12 +34,6 @@ const projects = [
     stack: "PHP, MySQL",
     company: "Inetweaver",
     description: "Booking platform for repair services with automated appointment scheduling."
-  },
-  {
-    title: "TutoHub",
-    stack: "Next.js, Node.js, JWT",
-    company: "Personal Project",
-    description: "Study material sharing platform with Google OAuth and role-based access."
   },
 ];
 
