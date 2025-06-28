@@ -21,6 +21,40 @@ export default function Contact() {
             +91 75289 39625
           </a>
         </p>
+        <p>
+          🔗{' '}
+          <a
+            href="https://www.linkedin.com/in/dheerajbishwas/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline"
+          >
+            LinkedIn Profile
+          </a>
+        </p>
+        <p>
+          🔗{' '}
+          <a
+            href="https://github.com/dheerajbishwaas"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline"
+          >
+            GitHub Profile
+          </a>
+        </p>
+        <p>
+          📄{' '}
+          <a
+            href="/Dheeraj-Bishwas.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline"
+            download
+          >
+            Download Resume
+          </a>
+        </p>
         <p>📍 Ludhiana, Punjab, India</p>
       </div>
     </section>
