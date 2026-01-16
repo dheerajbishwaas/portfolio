@@ -43,18 +43,18 @@ export default function Skills() {
 
   return (
     <section id="skills" className="py-10 px-6" ref={sectionRef}>
-      <h2 className="text-2xl font-bold mb-6">Skills</h2>
-      <ul className="grid grid-cols-2 md:grid-cols-3 gap-4 text-gray-700">
+      <h2 className="text-2xl font-bold mb-6 dark:text-white">Skills</h2>
+      <ul className="grid grid-cols-2 md:grid-cols-3 gap-4 text-gray-700 dark:text-slate-300">
         {skills.map(skill => (
-          <li key={skill.name} className="bg-gray-100 p-4 rounded shadow-sm">
+          <li key={skill.name} className="bg-gray-100 dark:bg-slate-800 p-4 rounded shadow-sm transition-colors duration-300">
             <div className="mb-2 font-medium">{skill.name}</div>
-            <div className="w-full bg-gray-300 h-2 rounded overflow-hidden">
+            <div className="w-full bg-gray-300 dark:bg-slate-700 h-2 rounded overflow-hidden">
               <div
-                className="bg-blue-600 h-full rounded transition-all duration-1000"
+                className="bg-blue-600 dark:bg-blue-500 h-full rounded transition-all duration-1000"
                 style={{ width: animate ? `${skill.level}%` : '0%' }}
               />
             </div>
-            <div className="text-right text-sm text-gray-600 mt-1">
+            <div className="text-right text-sm text-gray-600 dark:text-slate-400 mt-1">
               {skill.level}%
             </div>
           </li>

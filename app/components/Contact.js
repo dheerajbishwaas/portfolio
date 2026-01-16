@@ -1,13 +1,13 @@
 export default function Contact() {
   return (
     <section id="contact" className="py-10 px-6">
-      <h2 className="text-2xl font-bold mb-4">Contact</h2>
-      <div className="space-y-2 text-gray-700 text-base">
+      <h2 className="text-2xl font-bold mb-4 dark:text-white">Contact</h2>
+      <div className="space-y-2 text-gray-700 dark:text-slate-300 text-base">
         <p>
           📧{' '}
           <a
             href="mailto:dheerajbishwaas@gmail.com"
-            className="text-blue-600 hover:underline"
+            className="text-blue-600 dark:text-blue-400 hover:underline"
           >
             dheerajbishwaas@gmail.com
           </a>
@@ -16,7 +16,7 @@ export default function Contact() {
           📞{' '}
           <a
             href="tel:+917528939625"
-            className="text-blue-600 hover:underline"
+            className="text-blue-600 dark:text-blue-400 hover:underline"
           >
             +91 75289 39625
           </a>
@@ -27,7 +27,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/dheerajbishwas/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 hover:underline"
+            className="text-blue-600 dark:text-blue-400 hover:underline"
           >
             LinkedIn Profile
           </a>
@@ -38,7 +38,7 @@ export default function Contact() {
             href="https://github.com/dheerajbishwaas"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 hover:underline"
+            className="text-blue-600 dark:text-blue-400 hover:underline"
           >
             GitHub Profile
           </a>
@@ -49,13 +49,13 @@ export default function Contact() {
             href="/Dheeraj-Bishwas.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 hover:underline"
+            className="text-blue-600 dark:text-blue-400 hover:underline"
             download
           >
             Download Resume
           </a>
         </p>
-        <p>📍 Ludhiana, Punjab, India</p>
+        <p className="dark:text-slate-400">📍 Ludhiana, Punjab, India</p>
       </div>
     </section>
   );
