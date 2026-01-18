@@ -1,5 +1,15 @@
 const projects = [
   {
+    title: "Request Risk Score",
+    stack: "Node.js, NPM Package",
+    company: "Open Source",
+    description: "Middleware to assess request risk scores for identifying bots and crawlers.",
+    links: {
+      github: "https://github.com/dheerajbishwaas/request-risk-score",
+      npm: "https://www.npmjs.com/package/request-risk-score"
+    }
+  },
+  {
     title: "TutoHub",
     stack: "Next.js, Node.js, JWT",
     company: "Personal Project",
@@ -55,7 +65,32 @@ export default function Projects() {
             <p className="text-sm text-gray-500 dark:text-slate-400 mb-1 italic">
               {project.company}
             </p>
-            <p className="text-gray-700 dark:text-slate-300 text-sm">{project.description}</p>
+            <p className="text-gray-700 dark:text-slate-300 text-sm mb-3">{project.description}</p>
+
+            {project.links && (
+              <div className="flex gap-3 text-sm">
+                {project.links.github && (
+                  <a
+                    href={project.links.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline dark:text-blue-400 flex items-center gap-1"
+                  >
+                    GitHub
+                  </a>
+                )}
+                {project.links.npm && (
+                  <a
+                    href={project.links.npm}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-600 hover:underline dark:text-red-400 flex items-center gap-1"
+                  >
+                    NPM
+                  </a>
+                )}
+              </div>
+            )}
           </div>
         ))}
       </div>
