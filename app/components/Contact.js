@@ -46,11 +46,10 @@ export default function Contact() {
         <p>
           📄{' '}
           <a
-            href="/Dheeraj-Bishwas.pdf"
+            href="https://docs.google.com/document/d/1Tjqptrb9pFKGnTMtAM1k5FJlxNG9K9fV0Z3pRGYIMvo/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 dark:text-blue-400 hover:underline"
-            download
           >
             Download Resume
           </a>
