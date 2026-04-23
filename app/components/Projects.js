@@ -17,9 +17,9 @@ const projects = [
   },
   {
     title: "GitBro",
-    stack: "Next.js, Git Tools",
+    stack: "Go, Batch Script, Git",
     company: "TutoHub Tool",
-    description: "A developer-friendly Git helper tool for quick commands, workflows, and everyday version control tasks.",
+    description: "A Go-based Git helper tool with Windows batch installer files to simplify setup, installation, and everyday Git workflows.",
     links: {
       live: "https://tutohub.com/tools/gitbro"
     }
