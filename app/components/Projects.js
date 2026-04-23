@@ -16,6 +16,15 @@ const projects = [
     description: "Study material sharing platform with Google OAuth and role-based access."
   },
   {
+    title: "GitBro",
+    stack: "Next.js, Git Tools",
+    company: "TutoHub Tool",
+    description: "A developer-friendly Git helper tool for quick commands, workflows, and everyday version control tasks.",
+    links: {
+      live: "https://tutohub.com/tools/gitbro"
+    }
+  },
+  {
     title: "Tohfa.gift",
     stack: "PHP, CodeIgniter 4",
     company: "Greek Factory Inovation",
@@ -87,6 +96,16 @@ export default function Projects() {
                     className="text-red-600 hover:underline dark:text-red-400 flex items-center gap-1"
                   >
                     NPM
+                  </a>
+                )}
+                {project.links.live && (
+                  <a
+                    href={project.links.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-green-600 hover:underline dark:text-green-400 flex items-center gap-1"
+                  >
+                    Live
                   </a>
                 )}
               </div>
