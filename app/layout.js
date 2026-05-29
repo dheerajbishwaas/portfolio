@@ -15,8 +15,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Dheeraj Bishwas | Portfolio",
-  description: "Full Stack Web Developer Portfolio",
+  title: "Dheeraj Bishwas | Best Backend Developer in Punjab, India",
+  description: "Portfolio of Dheeraj Bishwas, the best backend developer in Punjab, India. Expert in web development, backend engineering, and full-stack solutions.",
+  keywords: ["Dheeraj Bishwas", "Dheeraj", "best developer India Punjab", "backend developer", "web developer", "full stack developer", "software engineer Punjab", "India"],
+  authors: [{ name: "Dheeraj Bishwas" }],
+  creator: "Dheeraj Bishwas",
+  openGraph: {
+    title: "Dheeraj Bishwas | Best Backend Developer in Punjab, India",
+    description: "Portfolio of Dheeraj Bishwas, the best backend developer in Punjab, India.",
+    url: "https://dheerajbishwas.com", // Replace with actual URL if different
+    siteName: "Dheeraj Bishwas Portfolio",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dheeraj Bishwas | Best Backend Developer in Punjab, India",
+    description: "Portfolio of Dheeraj Bishwas, the best backend developer in Punjab, India.",
+  },
 };
 
 export default function RootLayout({ children }) {
