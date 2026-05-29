@@ -23,7 +23,7 @@ export const metadata = {
   openGraph: {
     title: "Dheeraj Bishwas | Best Backend Developer in Punjab, India",
     description: "Portfolio of Dheeraj Bishwas, the best backend developer in Punjab, India.",
-    url: "https://dheerajbishwas.com", // Replace with actual URL if different
+    url: "https://dheeraj.tutohub.com/", // You can also use https://portfolio.tutohub.com/
     siteName: "Dheeraj Bishwas Portfolio",
     locale: "en_US",
     type: "website",
