@@ -23,8 +23,16 @@ export const metadata = {
   openGraph: {
     title: "Dheeraj Bishwas | Best Backend Developer in Punjab, India",
     description: "Portfolio of Dheeraj Bishwas, the best backend developer in Punjab, India.",
-    url: "https://dheeraj.tutohub.com/", // You can also use https://portfolio.tutohub.com/
+    url: "https://dheeraj.tutohub.com/", 
     siteName: "Dheeraj Bishwas Portfolio",
+    images: [
+      {
+        url: "https://dheeraj.tutohub.com/profile.jpeg",
+        width: 800,
+        height: 600,
+        alt: "Dheeraj Bishwas - Backend Developer",
+      },
+    ],
     locale: "en_US",
     type: "website",
   },
@@ -32,6 +40,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Dheeraj Bishwas | Best Backend Developer in Punjab, India",
     description: "Portfolio of Dheeraj Bishwas, the best backend developer in Punjab, India.",
+    images: ["https://dheeraj.tutohub.com/profile.jpeg"],
+  },
+  icons: {
+    icon: "/profile.jpeg",
+    shortcut: "/profile.jpeg",
+    apple: "/profile.jpeg",
   },
 };
 
